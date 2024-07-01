@@ -1,0 +1,80 @@
+body {
+    align-items: center;
+    background-image: url('Daybag2.jpg');
+    min-height: 100%;
+    background-size: cover;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+}
+
+body.night {
+    background-image: url('Nightbag2.jpg'); 
+}
+body.light {
+    background-image: url('Daybag2.jpg'); 
+}
+
+.bar {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 10px;
+}
+.dark {
+    width: 29px;
+}
+.stopwatch {
+    margin-left: -3%;
+    margin-top: 13%;
+    text-align: center;
+    width: 100%;
+}
+
+#display {
+    font-size: 10em;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.466);
+    width: 48vh;
+    margin-left: 25%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 101px;
+    height: 39px;
+}
+
+#startStopBtn {
+    background-color: #306e3279;
+    color: white;
+}
+
+#pauseBtn {
+    background-color: #ff9800a4;
+    color: white;
+}
+
+#lapBtn {
+    background-color: #2196f3a4;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #f44336a4;
+    color: white;
+}
+
+#laps {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
